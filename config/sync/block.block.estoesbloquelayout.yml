@@ -1,0 +1,25 @@
+uuid: bcbd211d-f488-4533-8413-98e7fbed4ce7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:63f44a66-60eb-46d7-99d7-428392b2211b'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: estoesbloquelayout
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:63f44a66-60eb-46d7-99d7-428392b2211b'
+settings:
+  id: 'block_content:63f44a66-60eb-46d7-99d7-428392b2211b'
+  label: 'Esto es bloque layout'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,38 @@
+uuid: dead207e-4b48-4b1f-9890-1151a26350cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recent_events_added
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - zircon
+id: zircon_views_block__recent_events_added_block_1
+theme: zircon
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:recent_events_added-block_1'
+settings:
+  id: 'views_block:recent_events_added-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: '5'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      anonymous: anonymous
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

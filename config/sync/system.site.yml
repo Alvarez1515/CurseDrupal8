@@ -1,0 +1,14 @@
+uuid: 5185aa1c-e5f8-41dc-aac5-9d60bd601aa4
+name: 'Curso Drupalville'
+mail: solanoalvarez21@gmail.com
+slogan: 'Donde todos aprendemos juntos!'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
