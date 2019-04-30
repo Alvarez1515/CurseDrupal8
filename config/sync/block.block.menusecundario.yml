@@ -1,0 +1,24 @@
+uuid: e5ced08e-fd94-4d04-9cef-78b2072b5fe3
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-secundario
+  module:
+    - system
+  theme:
+    - bartik
+id: menusecundario
+theme: bartik
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'system_menu_block:menu-secundario'
+settings:
+  id: 'system_menu_block:menu-secundario'
+  label: 'Menu Secundario'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

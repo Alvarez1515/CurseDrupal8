@@ -1,0 +1,27 @@
+uuid: 63a44c36-9884-427e-9e57-4fd571d3e417
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_programa
+    - node.type.ct_curso
+  module:
+    - file
+id: node.ct_curso.field_programa
+field_name: field_programa
+entity_type: node
+bundle: ct_curso
+label: Programa
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt pdf'
+  max_filesize: 80KB
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

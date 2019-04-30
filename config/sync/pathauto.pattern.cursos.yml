@@ -1,0 +1,22 @@
+uuid: 25adb9b5-1947-46a6-9b39-9f93ac58eff8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: cursos
+label: Cursos
+type: 'canonical_entities:node'
+pattern: 'cursos/[node:title]'
+selection_criteria:
+  160448de-5999-4383-9f30-d9e954280462:
+    id: node_type
+    bundles:
+      ct_curso: ct_curso
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 160448de-5999-4383-9f30-d9e954280462
+selection_logic: and
+weight: -5
+relationships: {  }

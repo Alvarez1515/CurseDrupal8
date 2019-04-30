@@ -1,0 +1,8 @@
+uuid: cb95ca04-cd5d-4a80-b7c3-d9123637cbf4
+langcode: en
+status: true
+dependencies: {  }
+id: cursos
+label: Cursos
+description: ''
+locked: false

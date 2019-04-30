@@ -1,0 +1,31 @@
+uuid: 756b6bf7-e08d-423a-bd33-9c9565f174c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_categoria
+    - node.type.ct_curso
+    - taxonomy.vocabulary.ciclo_i
+    - taxonomy.vocabulary.ciclo_ii
+id: node.ct_curso.field_categoria
+field_name: field_categoria
+entity_type: node
+bundle: ct_curso
+label: Categoria
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ciclo_i: ciclo_i
+      ciclo_ii: ciclo_ii
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ciclo_i
+field_type: entity_reference

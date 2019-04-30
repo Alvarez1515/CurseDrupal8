@@ -1,0 +1,12 @@
+uuid: ba6fb91c-ed11-4d8f-9893-b7c4197506de
+langcode: en
+status: true
+dependencies: {  }
+id: formulario_contacto
+label: 'Formulario Contacto'
+recipients:
+  - solano@gmail.com
+reply: ''
+weight: 0
+message: 'Gracias por sus mensajes'
+redirect: ''

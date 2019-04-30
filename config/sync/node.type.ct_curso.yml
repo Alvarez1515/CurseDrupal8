@@ -1,0 +1,18 @@
+uuid: 9c4031fd-609f-42f6-9b11-dc398eeb4e0c
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: CT_Curso
+type: ct_curso
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

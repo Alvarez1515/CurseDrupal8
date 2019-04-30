@@ -1,0 +1,9 @@
+uuid: 7f1bc3a7-3994-47d8-b47b-f3404b7203ce
+langcode: en
+status: true
+dependencies: {  }
+name: Ciclo_I
+vid: ciclo_i
+description: 'Primer bloque de cursos'
+hierarchy: 0
+weight: 0

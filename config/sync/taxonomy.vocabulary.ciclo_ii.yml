@@ -1,0 +1,9 @@
+uuid: cc834cba-d318-4187-94fd-23a260c73239
+langcode: en
+status: true
+dependencies: {  }
+name: Ciclo_II
+vid: ciclo_ii
+description: 'Segundo bloque de cursos'
+hierarchy: 0
+weight: 0

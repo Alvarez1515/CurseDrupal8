@@ -1,0 +1,35 @@
+uuid: b47cad85-a9fb-47d9-840c-9199ba15ebaa
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ct_curso.body
+    - field.field.node.ct_curso.field_categoria
+    - field.field.node.ct_curso.field_programa
+    - field.field.node.ct_curso.field_titulo
+    - node.type.ct_curso
+  module:
+    - user
+id: node.ct_curso.teaser
+targetEntityType: node
+bundle: ct_curso
+mode: teaser
+content:
+  field_titulo:
+    type: string
+    weight: 0
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_categoria: true
+  field_programa: true

@@ -1,0 +1,22 @@
+uuid: 43e38ae8-bfb3-4a27-90cc-fbdafd6a519d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.ct_curso
+  module:
+    - text
+id: node.ct_curso.body
+field_name: body
+entity_type: node
+bundle: ct_curso
+label: Descripcion
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

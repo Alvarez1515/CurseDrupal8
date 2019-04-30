@@ -1,4 +1,4 @@
-uuid: 6b40aac1-d7b3-4f82-9f63-5039581b564f
+uuid: 058e13a3-9d21-4d50-83fc-c9b2953d0293
 langcode: en
 status: true
 dependencies:
@@ -13,7 +13,7 @@ _core:
 id: bartik_footer
 theme: bartik
 region: footer_fifth
-weight: 0
+weight: -6
 provider: null
 plugin: 'system_menu_block:footer'
 settings:

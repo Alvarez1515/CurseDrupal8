@@ -1,0 +1,18 @@
+uuid: c0b44c84-6b1c-457a-9e9f-fe50131d3d2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.imagen_responsiba
+id: node.imagen_responsiba.title
+field_name: title
+entity_type: node
+bundle: imagen_responsiba
+label: Imagen
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

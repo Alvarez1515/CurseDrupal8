@@ -1,8 +1,8 @@
 country:
-  default: CR
+  default: ''
 first_day: 0
 timezone:
-  default: America/Costa_Rica
+  default: America/Denver
   user:
     configurable: true
     warn: false

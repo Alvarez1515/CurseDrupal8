@@ -1,0 +1,18 @@
+uuid: c420ecd6-4142-4ade-b5a1-d89886f392b4
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Imagen Responsiba'
+type: imagen_responsiba
+description: 'Esto es para imagenes responsibas'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

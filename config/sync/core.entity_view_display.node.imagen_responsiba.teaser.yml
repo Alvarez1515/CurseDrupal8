@@ -1,0 +1,30 @@
+uuid: bd1f8489-dcb6-40eb-887b-ac0c10a78049
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.imagen_responsiba.body
+    - node.type.imagen_responsiba
+  module:
+    - text
+    - user
+id: node.imagen_responsiba.teaser
+targetEntityType: node
+bundle: imagen_responsiba
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
